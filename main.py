@@ -9,7 +9,7 @@ db = {}
 
 @app.route("/")  # placeholder
 def potato():
-    return render_template("potato.html")
+    return render_template("index.html")
 
 
 @app.route("/report")
